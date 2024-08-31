@@ -1,5 +1,7 @@
 let bmiWeight = 50;
-let bmiHeight = (24.9)^2;
+let bmiHeight = 24.9;
+let BMI = bmiWeight / (bmiHeight * bmiHeight);
+console.log(BMI.toFixed(1));
 
 if(bmiWeight < 18.5){
     console.log("You are underweight");
@@ -14,4 +16,4 @@ else {
     console.log("You are obese");
 }
 
-// You are Overweight cause your bmi weight is more than 25kg and bmiHeight is less than 29.9m
+// BMI result is 0.1 and You are normal cause your bmi weight is more than 18.5kg and bmiHeight is 24.9m.
