@@ -1,6 +1,6 @@
-let bmiWeight = 50;
-let bmiHeight = 24.9;
-let BMI = bmiWeight / (bmiHeight * bmiHeight);
+let weight = 50;
+let height = 24.9;
+let BMI = weight / (height * height);
 console.log(BMI.toFixed(1));
 
 if(BMI < 18.5){

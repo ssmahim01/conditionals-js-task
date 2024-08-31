@@ -1,6 +1,6 @@
 let ticketPrice = 800;
 let childrenAge = 12;
-let studentAge = 18;
+let studentAge = true;
 let seniorCitizensAge = 60;
 
 if(childrenAge < 10){
@@ -10,17 +10,19 @@ if(childrenAge < 10){
 // 50% discount
 else if(!studentAge){
     let firstDiscount = (ticketPrice * 50 / 100);
-    console.log(firstDiscount);
+    let payAmount1 = (ticketPrice - firstDiscount);
+    console.log(payAmount1);
 }
 
 // 15% discount
 else if(seniorCitizensAge >= 60){
     let secondDiscount = (ticketPrice * 15 / 100);
-    console.log(secondDiscount);
+    let payAmount2 = (ticketPrice - secondDiscount);
+    console.log(payAmount2);
 }
 
 else {
     console.log('Regular ticket fare 800tk');
 }
 
-// Ticket fare got 120tk with 15% discount.
+// Ticket fare got 680tk with 15% discount.

@@ -1,10 +1,41 @@
-console.log('A+ : 90 - 100');
-console.log('A+ : 80 - 89');
-console.log('A : 70  - 79');
-console.log('A- : 60  - 69');
-console.log('B : 50  - 59');
-console.log('C : 40  - 49');
-console.log('D : 30  - 39');
-console.log('F : 0  - 32');
+var studentMark1 = 95;
+if(studentMark1 > 90 <= 100){
+    console.log('You got golden : A+');
+}
 
-// The grading scale.
+var studentMark2 = 85;
+if(studentMark2 > 80 <= 89){
+    console.log('You got : A+');
+}
+
+var studentMark3 = 75;
+if(studentMark3 > 70 <= 79){
+    console.log('You got : A');
+}
+
+var studentMark4 = 62;
+if(studentMark4 > 60 <= 69){
+    console.log('You got : A-');
+}
+
+var studentMark5 = 54;
+if(studentMark5 > 50 <= 59){
+    console.log('You got : B');
+}
+
+var studentMark6 = 44;
+if(studentMark6 > 40 <= 49){
+    console.log('You got : C');
+}
+
+var studentMark7 = 34;
+if(studentMark7 > 30 <= 39){
+    console.log('You got : D');
+}
+
+var studentMark8 = 25;
+if(studentMark8 > 0 <= 29){
+    console.log('You got : F');
+}
+
+// Student's grade.
